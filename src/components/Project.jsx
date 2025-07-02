@@ -29,6 +29,12 @@ export default function Projects() {
                                 A basic shopping web app built with React and Node.js where users can browse products, add items to cart, and place orders.
                             </p>
                             <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
+                            <ul className="mt-2">
+                                <li>Product listing and detail view</li>
+                                <li>Simple cart functionality</li>
+                                <li>Place order form (no payment integration)</li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>

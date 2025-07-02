@@ -8,6 +8,7 @@ export default function Contact() {
   useEffect(() => {
     if (state.succeeded) {
       toast.success(' Message sent successfully!', { autoClose: 3000 });
+      
     }
 
     if (state.errors && state.errors.length > 0) {
