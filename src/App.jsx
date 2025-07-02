@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-     
+
     <div className="full-bg text-white">
       {/* Navigation Bar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
@@ -41,7 +41,14 @@ function App() {
         <div className="container">
           <h1 className="fw-bold">NITHISH.C</h1>
           <p className="lead">Passionate Web Developer | React | Node.js | PHP</p>
-          <a href="/cv.pdf" download className="btn btn-outline-warning btn-lg mt-3">Download Resume</a>
+          <a
+            href={`${import.meta.env.BASE_URL}cv.pdf`}
+            download
+            className="btn btn-warning btn-lg mt-3"
+          >
+            Download Resume
+          </a>
+
         </div>
       </header>
 
@@ -67,7 +74,7 @@ function App() {
             <Contact />
           </div>
         </section>
-        
+
       </main>
 
       <footer className="bg-dark text-center text-white py-3 mt-5">
