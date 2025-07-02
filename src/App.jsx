@@ -41,7 +41,7 @@ function App() {
         <div className="container">
           <h1 className="fw-bold">NITHISH.C</h1>
           <p className="lead">Passionate Web Developer | React | Node.js | PHP</p>
-          <a href="/CV.pdf" download className="btn btn-outline-warning btn-lg mt-3">Download Resume</a>
+          <a href="/cv.pdf" download className="btn btn-outline-warning btn-lg mt-3">Download Resume</a>
         </div>
       </header>
 
