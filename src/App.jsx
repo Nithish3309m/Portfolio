@@ -78,7 +78,7 @@ function App() {
       </main>
 
       <footer className="bg-dark text-center text-white py-3 mt-5">
-        <small>&copy; 2025 Your Name</small>
+        <small>&copy; 2025 NITHISH</small>
       </footer>
     </div>
   )
