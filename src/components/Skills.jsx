@@ -5,13 +5,13 @@ export default function Skills() {
             <div className="row">
                 <div className="col-md-6">
                     <ul className="list-group mb-3">
-                        <li className="list-group-item"><strong>Languages:</strong> C++, JavaScript, PHP</li>
-                        <li className="list-group-item"><strong>Frontend:</strong> HTML, CSS, jQuery, React, AJAX</li>
+                        <li className="list-group-item"><strong>Languages:</strong> C++</li>
+                        <li className="list-group-item"><strong>Frontend:</strong> HTML,CSS,Javascript, jQuery, React</li>
                     </ul>
                 </div>
                 <div className="col-md-6">
                     <ul className="list-group mb-3">
-                        <li className="list-group-item"><strong>Backend & DB:</strong> Node.js, Express.js, MySQL, MongoDB</li>
+                        <li className="list-group-item"><strong>Backend & DB:</strong>Php,Node.js, Express.js, MySQL, MongoDB</li>
                         <li className="list-group-item"><strong>Tools & Others:</strong> Git,Vs code,SEO(Search Engine Optimization)</li>
                     </ul>
                 </div>
