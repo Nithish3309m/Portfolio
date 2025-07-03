@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Internship from './components/Internship';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
                 <a className="nav-link" href="#skills">Skills</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#internship">Internship</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
@@ -37,20 +41,37 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="text-center text-white py-5   border-bottom border-secondary">
-        <div className="container">
-          <h1 className="fw-bold">NITHISH.C</h1>
-          <p className="lead">Passionate Web Developer | React | Node.js | PHP</p>
-          <a
-            href={`${import.meta.env.BASE_URL}cv.pdf`}
-            download
-            className="btn btn-warning btn-lg mt-3"
-          >
-            Download Resume
-          </a>
+      <header className="text-white py-5 border-bottom border-secondary">
+  <div className="container">
+    <div className="row align-items-center">
+      {/* Left Column: Text */}
+      <div className="col-md-8 text-center text-md-start mb-4 mb-md-0">
+        <h1 className="fw-bold">Hi, I'm <span className="text-warning">NITHISH.C</span></h1>
+        <p className="lead">Passionate Web Developer | React | Node.js | PHP</p>
+        <a
+          href={`${import.meta.env.BASE_URL}cv.pdf`}
+          download
+          className="btn btn-warning btn-lg mt-3"
+        >
+          Download Resume
+        </a>
+      </div>
 
-        </div>
-      </header>
+      {/* Right Column: Image */}
+      <div className="col-md-4 text-center">
+        <img
+          src={`${import.meta.env.BASE_URL}image.jpeg`}
+          alt="Profile"
+          className="rounded-circle shadow"
+          width="220"
+          height="220"
+          style={{ objectFit: 'cover' }}
+        />
+      </div>
+    </div>
+  </div>
+</header>
+
 
       <main className="container mt-5">
         <ToastContainer position="top-right" autoClose={3000} />
@@ -67,6 +88,11 @@ function App() {
         <section id="skills" className="py-5">
           <div className="section-card">
             <Skills />
+          </div>
+        </section>
+         <section id="internship" className="py-5">
+          <div className="section-card">
+           <Internship/>
           </div>
         </section>
         <section id="contact" className="py-5">

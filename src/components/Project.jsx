@@ -24,7 +24,7 @@ export default function Projects() {
                 <div className="col-md-6 mb-4">
                     <div className="card h-100 shadow-sm border-0">
                         <div className="card-body">
-                            <h5 className="card-title">Mini E-Commerce App</h5>
+                            <h5 className="card-title">Mini E-Commerce </h5>
                             <p className="card-text">
                                 A basic shopping web app built with React and Node.js where users can browse products, add items to cart, and place orders.
                             </p>

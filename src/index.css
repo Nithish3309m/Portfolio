@@ -8,11 +8,7 @@ html {
   color: white;
 }
 
-.hero-header-alt {
-  background-color: #e8e8f0; /* Softer tone than full-bg */
-  color: #f3f4f6; /* Light gray-white text */
-  border-bottom: 2px solid #444;
-}
+
 
 .card-title {
   color: #ffd54f;
