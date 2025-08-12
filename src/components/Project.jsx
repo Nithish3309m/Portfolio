@@ -83,6 +83,55 @@ export default function Projects() {
                     </div>
                 </div>
 
+                <div className="col-md-6 mb-4">
+                    <div className="card h-100 shadow-sm border-0 d-flex flex-column justify-content-between">
+                        <div className="card-body d-flex flex-column h-100">
+                            <div className="flex-grow-1">
+                                <h5 className="card-title text-warning">Coffee E-Commerce Website</h5>
+                                <p className="card-text">
+                                    A full-stack coffee product-selling platform where customers can browse items, add them to their cart, and place orders with cash on delivery. The system also includes an admin dashboard to manage products and orders.
+                                </p>
+                                <p><strong>Tech Stack:</strong> React, React-Bootstrap, Node.js, Express, MongoDB, JWT</p>
+                                <ul className="mt-2">
+                                    <li>Home page with carousel, best-seller section, and “Why Us” info</li>
+                                    <li>Secure user registration and login</li>
+                                    <li>Add products to cart and proceed to checkout</li>
+                                    <li>Cash on delivery with order confirmation email</li>
+                                    <li>Admin dashboard to add/edit/delete products</li>
+                                    <li>View and manage customer orders</li>
+                                </ul>
+                            </div>
+                            <div className="mt-3 d-flex justify-content-end">
+                                <a
+                                    href="https://coffee-frontend-three.vercel.app/"
+                                    className="btn btn-sm btn-primary me-2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Live Demo
+                                </a>
+                                <a
+                                    href="https://github.com/Nithish3309m/coffee-frontend"
+                                    className="btn btn-sm btn-outline-secondary"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Frontend Repo
+                                </a>
+                                <a
+                                    href="https://github.com/Nithish3309m/coffee-server"
+                                    className="btn btn-sm btn-outline-secondary"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Backend Repo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
         </section>
